@@ -19,8 +19,8 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = %w(README.rdoc)
   s.rdoc_options.concat ['--main',  'README.rdoc']
 
-  s.add_dependency 'activesupport', version
-  s.add_dependency 'activemodel',   version
+  s.add_dependency 'activesupport', '4.1.6'
+  s.add_dependency 'activemodel',   '4.1.6'
 
   s.add_dependency 'arel', '~> 5.0.0'
 end
